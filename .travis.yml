@@ -1,4 +1,6 @@
 language: objective-c
-xcode_project: ./StoreKitPlugin/StoreKitPlugin.xcodeproj
-xcode_scheme: StoreKitPlugin
+script:
+  - xctool -project ./StoreKitPlugin/StoreKitPlugin.xcodeproj -scheme StoreKitPlugin -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+#xcode_project: ./StoreKitPlugin/StoreKitPlugin.xcodeproj
+#xcode_scheme: StoreKitPlugin
 
