@@ -4,3 +4,4 @@ before_install:
 	- brew install xctool
 xcode_project: ./StoreKitPlugin/StoreKitPlugin.xcodeproj
 xcode_scheme: StoreKitPlugin
+
