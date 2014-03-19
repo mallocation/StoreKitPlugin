@@ -1,1 +1,3 @@
 language: objective-c
+xcode_project: ./StoreKitPlugin/StoreKitPlugin.xcodeproj
+xcode_scheme: StoreKitPlugin
