@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8711DF4118D9251200CF7417 /* UnityExternFunctions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8711DF4018D9251200CF7417 /* UnityExternFunctions.mm */; };
 		8797D72D18D91AEB00BCB390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8797D72C18D91AEB00BCB390 /* Foundation.framework */; };
 		8797D72F18D91AEB00BCB390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8797D72E18D91AEB00BCB390 /* CoreGraphics.framework */; };
 		8797D73118D91AEB00BCB390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8797D73018D91AEB00BCB390 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8711DF4018D9251200CF7417 /* UnityExternFunctions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityExternFunctions.mm; sourceTree = "<group>"; };
 		8797D72918D91AEB00BCB390 /* StoreKitPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreKitPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8797D72C18D91AEB00BCB390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8797D72E18D91AEB00BCB390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 		8797D73218D91AEB00BCB390 /* StoreKitPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				8711DF4018D9251200CF7417 /* UnityExternFunctions.mm */,
 				8797D76418D91B7E00BCB390 /* StoreKitPlugin.h */,
 				8797D76518D91B7E00BCB390 /* StoreKitPlugin.mm */,
 				8797D73B18D91AEB00BCB390 /* AppDelegate.h */,
@@ -266,6 +269,7 @@
 				8797D76618D91B7E00BCB390 /* StoreKitPlugin.mm in Sources */,
 				8797D73D18D91AEB00BCB390 /* AppDelegate.m in Sources */,
 				8797D73918D91AEB00BCB390 /* main.m in Sources */,
+				8711DF4118D9251200CF7417 /* UnityExternFunctions.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +484,7 @@
 				8797D76018D91AEB00BCB390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8797D76118D91AEB00BCB390 /* Build configuration list for PBXNativeTarget "StoreKitPluginTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +493,7 @@
 				8797D76318D91AEB00BCB390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
